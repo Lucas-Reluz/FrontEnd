@@ -1,3 +1,19 @@
 body {
-    background-color: wheat;
+  background-color: rgb(92, 6, 116);
   }
+
+
+.Venusaur{
+  display: flex;
+  font-size: 8mm;
+}
+
+.Charizard{
+  display: flex;
+  font-size: 8mm;
+}
+
+.Blastoise{
+  display: flex;
+  font-size: 8mm;
+}
