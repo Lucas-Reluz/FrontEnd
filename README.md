@@ -1,1 +1,1 @@
-Teste -> [Live Pokemon]https://htmlpreview.github.io/?https://github.com/Lucas-Reluz/FrontEnd/blob/master/index.html
+[Live Pokemon]https://htmlpreview.github.io/?https://github.com/Lucas-Reluz/FrontEnd/blob/master/index.html
