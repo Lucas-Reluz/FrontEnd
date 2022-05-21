@@ -1,19 +1,28 @@
 body {
-  background-color: rgb(92, 6, 116);
+  background-color: rgb(107, 72, 108);
   }
 
 
 .Venusaur{
   display: flex;
-  font-size: 8mm;
+  font-size: 7mm;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(27, 58, 6);
+  border-radius: 2%;
 }
 
 .Charizard{
   display: flex;
-  font-size: 8mm;
+  font-size: 7mm;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(203, 144, 101);
+  border-radius: 2%;
 }
 
 .Blastoise{
   display: flex;
-  font-size: 8mm;
+  font-size: 7mm;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(47, 90, 184);
+  border-radius: 2%;
 }
