@@ -12,24 +12,54 @@
 </head>
 
 <body>
-    <article class="card">
-        <a href="Venusaur.html">
-            <img src="Assets/Venusaur.png" alt="Pokemon Venusaur">
-        </a>
-            <h2>VENUSAUR <img src="Assets/VENUSAUR_GRASS.webp" alt="Tipo Planta"> <img src="Assets/VENUSAUR_POISON.webp" alt="Tipo Veneno"></h2>
-    </article>
-    <article class="card">
-        <a href="Charizard.html">
-            <img src="Assets/CHARIZARD.png" alt="Pokemon Venusaur">
-        </a>
-            <h2>CHARIZARD <img src="Assets/CHARIZARD_FIRE.webp" alt="Tipo Fogo"> <img src="Assets/CHARIZARD_FLYING.webp" alt="Tipo Voador"></h2>
-    </article>
-    <article class="card">
-        <a href="Blastoise.html">
-            <img src="Assets/Blastoise.png" alt="Pokemon Venusaur">
-        </a>
-            <h2>BLASTOISE <img src="Assets/BLAST_WATER.webp" alt="Tipo Água"></h2>
-    </article>
+    <div class="titulo">
+        <h1>Pokemons Ultima Geração<img
+                src="Assets/pokeball-png-5a3ab8044b97e7.8086813315137976363096-removebg-preview.png" </h1> 
+                <div>
+                    <button onclick="acao()">Clique Aqui</button>
+            </div>
+            </div> 
+                <div class="cards">
+            <article class="card">
+                <a href="Venusaur.html">
+                    <img src="Assets/Venusaur.png" alt="Pokemon Venusaur">
+                </a>
+                <h2>VENUSAUR <img src="Assets/VENUSAUR_GRASS.webp" alt="Tipo Planta"> <img
+                        src="Assets/VENUSAUR_POISON.webp" alt="Tipo Veneno"></h2>
+            </article>
+            <article class="card">
+                <a href="Charizard.html">
+                    <img src="Assets/CHARIZARD.png" alt="Pokemon Venusaur">
+                </a>
+                <h2>CHARIZARD <img src="Assets/CHARIZARD_FIRE.webp" alt="Tipo Fogo"> <img
+                        src="Assets/CHARIZARD_FLYING.webp" alt="Tipo Voador"></h2>
+            </article>
+            <article class="card">
+                <a href="Blastoise.html">
+                    <img src="Assets/Blastoise.png" alt="Pokemon Venusaur">
+                </a>
+                <h2>BLASTOISE <img src="Assets/BLAST_WATER.webp" alt="Tipo Água"></h2>
+            </article>
+    </div>
+    <section class="modal">
+        <p>Tu curte mesmo um Pokemon?</p>
+        <div onclick="fechar()" class="fechar">
+            <p>FECHAR</p>
+        </div>
+    </section>
+    <script>
+        function acao(){
+            let modal = document.querySelector('.modal')
+
+            modal.style.display = 'block';
+        }
+
+        function fechar(){
+            let modal = document.querySelector('.modal')
+
+            modal.style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>
