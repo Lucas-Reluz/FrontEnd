@@ -22,9 +22,74 @@
 
 body {
   background-color: rgb(107, 72, 108);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.Venusaur {
+.card h2{
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  color: rgb(71, 61, 61);
+  font-family: 'Times New Roman', Times, serif;
+  flex-direction: column;
+}
+
+.card{
+  border: 1px solid; width: max-content;
+  background-color: rgb(210, 195, 195);
+  border-radius: 3px;
+  margin: 5px;
+  animation-name: animacao;
+  animation-duration: 5s;
+  margin-top: 50px;
+  box-shadow: 0 1px 2px black;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card:hover{
+  transform: scale(1.20,1.20);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.Venusaur {
   display: inline-block;
   background-color: rgb(210, 195, 195);
   border-radius: 5px;
