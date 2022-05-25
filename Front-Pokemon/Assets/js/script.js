@@ -1,4 +1,5 @@
 let nome = window.document.getElementById('nome')
+let senha = window.document.getElementById('senha')
 
 function acao(){
     let modal = document.querySelector('.modal')
@@ -26,7 +27,6 @@ function validaNome() {
 }
 
 function validaSenha(){
-    let senha = window.document.getElementById('senha')
     let txtsenha = document.querySelector('#txtsenha')
     if (senha.value.length < 7){
         txtsenha.innerHTML = 'Senha Curta'

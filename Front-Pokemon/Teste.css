@@ -78,7 +78,7 @@ body {
 }
 
 .modal {
-  background-color: violet;
+  background-color: rgb(169, 154, 169);
   width: 500px;
   height: 350px;
   position: absolute;
@@ -102,12 +102,8 @@ body {
 }
 
 .fechar {
-  display: inline-block;
+  bottom: 1%;
   cursor: pointer;
-  border: 0.5px solid #fff;
-  width: 53px;
-  height: 30px;
-  border-radius: 5px;
   box-shadow: 0 3px 3px black;
   font-size: small;
   position: fixed;
