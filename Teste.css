@@ -89,6 +89,7 @@ body {
   animation-duration: 800ms;
   font-size: 40px;
   color: blue;
+  border-radius: 6%;
 }
 
 .modal p {
@@ -96,21 +97,20 @@ body {
 }
 
 .fechar {
-  float: inline-end;
+  display: inline-block;
   cursor: pointer;
-  border: 0.5px solid #990000;
-  width: 55px;
-  padding: 0;
-  margin: 0;
+  border: 0.5px solid #fff;
+  width: 53px;
+  height: 30px;
   border-radius: 5px;
-  font-size: small;
   box-shadow: 0 3px 3px black;
+  font-size: small;
 }
 
 .fechar:hover{
   transform: scale(1.05,1.05);
-  background: rgb(255, 255, 255);
-  color: rgb(239, 16, 16);
+  background: rgb(205, 80, 80);
+  color: rgb(0, 16, 233);
 }
 
 button {
