@@ -106,7 +106,8 @@ body {
   cursor: pointer;
   box-shadow: 0 3px 3px black;
   font-size: small;
-  position: fixed;
+  position: absolute;
+  top: 92%;
 }
 
 .fechar:hover{
@@ -133,6 +134,9 @@ button {
   border-radius: 5px;
   padding: 5px 10px;
   transition: all 0.400s;
+  position: absolute;
+  left: 1%;
+  top: 10px;
 }
 
 button:hover {

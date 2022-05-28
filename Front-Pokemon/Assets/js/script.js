@@ -21,8 +21,7 @@ function validaNome() {
         txt.innerHTML = 'Nome Inválido'
         txt.style.color = 'red'
     }else{
-        txt.innerHTML = 'Nome Válido'
-        txt.style.color = 'green'
+        txt.innerHTML = ''
     }
 }
 
