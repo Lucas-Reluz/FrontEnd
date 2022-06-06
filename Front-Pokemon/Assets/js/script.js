@@ -14,7 +14,7 @@ function fechar(){
 }
 
 
-function validaNome() {
+/*function validaNome() {
     let txt = document.querySelector('#txtnome')
     
     if (nome.value.length < 3){
@@ -34,7 +34,7 @@ function validaSenha(){
     else{
      txtsenha.innerHTML = ''
     }
-}
+}*/
 /* 
 por tag: getElementByTagName()
 por Id: getElementById()
