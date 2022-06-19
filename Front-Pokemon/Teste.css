@@ -1,0 +1,125 @@
+@keyframes animacao {
+  0% {
+    background-color: rgb(210, 195, 195)
+  }
+
+  25% {
+    background-color: rgb(222, 59, 59);
+  }
+
+  50% {
+    background-color: rgb(68, 60, 189);
+  }
+
+  75% {
+    background-color: rgb(255, 255, 255);
+  }
+
+  100% {
+    background-color: rgb(210, 195, 195);
+  }
+}
+
+@keyframes animateM {
+  from {
+    opacity: 1;
+  }
+
+  from {
+    opacity: 0;
+  }
+}
+
+body {
+  background-color: #990000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  color: orange;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  color: rgb(71, 61, 61);
+  font-family: 'Times New Roman', Times, serif;
+  flex-direction: column;
+}
+
+.card {
+  border: 1px solid;
+  width: max-content;
+  background-color: rgb(210, 195, 195);
+  border-radius: 3px;
+  margin: 5px;
+  animation-name: animacao;
+  animation-duration: 5s;
+  margin-top: 50px;
+  box-shadow: 0 1px 2px black;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card:hover {
+  transform: scale(1.20, 1.20);
+  background-color: cornsilk;
+}
+
+.modal {
+  background-color: rgb(169, 154, 169);
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animateM;
+  animation-duration: 800ms;
+  font-size: 40px;
+  color: blue;
+  border-radius: 4px;
+}
+
+#textnome {
+  font-size: small;
+}
+
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  color: rgb(43, 163, 69);
+  border: 1px solid wheat;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: all 0.400s;
+  position: absolute;
+  left: 1%;
+  top: 10px;
+  box-shadow: 3px 2px rgba(0, 0, 0, 0.387);
+}
+
+button:hover {
+  transform: scale(1.05, 1.05);
+  background: linear-gradient(80deg, #064ac0 0%, #0395ef 55%, #05458f 90%);
+  color: black;
+}
