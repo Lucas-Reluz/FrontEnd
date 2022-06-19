@@ -4,8 +4,9 @@ export const api = axios.create({
     baseURL: 'https://blogpessoalgenlucas.herokuapp.com/'
 })
 
-export const login = async(url: any, dados: any, setDado: any) => {
+export const login = async(url: any, dados: any, setDado: any, setToken: any) => {
     const resposta = await api.post(url, dados)
+    setToken(resposta.data.token)
     setDado(resposta.data.token)
 }
 
